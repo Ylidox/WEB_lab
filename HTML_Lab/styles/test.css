@@ -1,0 +1,37 @@
+body{
+	background-image: url("../img/city.jpg");
+	/*background-size: cover;*/
+	background-color: #58aff6;
+	margin: 0 auto;
+	/*top: 0;*/
+	/*position: fixed;*/
+}
+
+
+
+header{
+	height: 25%;
+}
+.skewHead{
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+	
+}
+
+.skew {
+	-webkit-transform:	skewY(2.5deg); 
+	-moz-transform:		skewY(2.5deg); 
+	-ms-transform:		skewY(2.5deg); 
+	-o-transform:		skewY(2.5deg); 
+	transform:			skewY(2.5deg); 
+	background: rgba(240, 240, 240, 0.9);
+	box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3)
+}
+
+.skew > * {
+	-webkit-transform:	skewY(-2.5deg); 
+	-moz-transform:		skewY(-2.5deg); 
+	-ms-transform:		skewY(-2.5deg); 
+	-o-transform:		skewY(-2.5deg); 
+	transform:			skewY(-2.5deg);
+
+}

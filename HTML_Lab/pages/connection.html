@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Обратная связь</title>
+	<link rel="stylesheet" href="../styles/connection.css">
+</head>
+<body>
+	<form action="../PHPfiles/form.php" method="POST">
+		<fieldset>
+			<legend>Свяжитесь с нами</legend>
+			<div class="main">
+				<ul>
+					<li>
+						<label>
+							<input type="email" name="email" id="email" placeholder="Email:">
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="text" name="firstname" placeholder="Ваше имя:">
+						</label>
+					</li>
+					<li>
+						<label>
+							<textarea name="message" id="textarea" cols="90" rows="10"
+							placeholder="Ваше сообщение:"></textarea>
+						</label>
+					</li>
+					<li class="button">
+						<button type="submit" id="login_button">Отправить</button>
+					</li>
+				</ul>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>

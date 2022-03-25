@@ -1,0 +1,57 @@
+*{
+	font-family: calibri;
+}
+h1{
+	margin-left: 4%;
+}
+.elems{
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.head_country>h2{
+	text-align: center;
+}
+.elem{
+	width: 30vw;
+	height: 40vh;
+}
+
+.elem>img{
+	width: 100%;
+	height: 90%;
+	border-radius: 10px;
+	background: rgb(220, 220, 220);
+}
+
+.name>h3{
+	margin: 0;
+	text-align: center;
+}
+.name>h3:hover{
+	color: rgb(84,195,205);
+}
+
+
+.foot>h4{
+    margin-top: 10px;
+    margin-left: 25px;
+    text-align: left;
+}
+.foot{
+    text-align: left;
+    width: 100%;
+    background: #fcf988;
+    height: 80px;
+}
+.foot>ol{
+    margin-top: -10px;
+}
+.foot>ol>li{
+    width: 30%;
+}
+footer{
+    text-align: left;
+}
