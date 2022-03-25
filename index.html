@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная</title>
+	<!-- Шрифт -->
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+	*{
+		text-align: center;
+		font-family: calibri, sans-serif;
+	}
+	</style>
+	<link rel="stylesheet" href="HTML_Lab/styles/style.css">
+	<link rel="stylesheet" href="HTML_Lab/styles/test.css">
+</head>
+<body>
+	<div class="blue-bg"></div>
+	<div style="position: absolute; top: 0;left: 0;"><a name="top"></a></div>
+	
+	<header class="skewHead">
+		<div class="head1">
+			<h1>Путешествуйте по всему миру!</h1>
+		</div>
+		<nav class="menu">
+			<ul>
+				<li id="popular_tours">
+					<a href="#top"><strong>Популярные туры</strong></a>
+					<ul>
+						<li><a href="#italy">Италия</a></li>
+						<li><a href="#germany">Германия</a></li>
+						<li><a href="#chez">Чехия</a></li>
+					</ul>
+				</li>
+				<li><a href="HTML_Lab/pages/what_to_visit.html" target="_blank">
+					<strong>Что посетить</strong></a>
+				</li>
+				<li>
+					<a href="HTML_Lab/pages/upcoming_tours.html" target="_blank"><strong>Ближайшие туры</strong></a>
+				</li>
+				<li>
+					<a href="HTML_Lab/pages/login.html" target="_blank"><strong>Вход/Регистрация</strong></a>
+				</li>
+				<li>
+					<a href="HTML_Lab/pages/connection.html" target="_blank"><strong>Связь с нами</strong></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<br><br><br><br>	
+	<div class="main">
+
+		<div class="enum">
+			<div class="elem skew" id="italy1" name="italy">
+				<h3 class="text"><em>Италия</em></h3>
+				<div class="content">
+					<div class="elem-img"><img class="elem" id="italy2" src="HTML_Lab/img/italy.jpg" alt="Италия">
+					</div>
+					<div class="elem-content">
+						<p>Италию не зря называют страной-музеем, ведь именно здесь сосредоточены три четверти культурного достояния Европы. Но музеи замкнуты и единообразны, а Италия состоит из множества областей и городов с живой культурой, яркой историей и уникальными традициями. Каждый из них по праву считает себя особенным и гордится этим.</p>
+						<div class="up">
+							<a href="#top" class="up">Наверх</a>		
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br><br><br><br>
+			<a name="germany"></a>
+			<div class="elem skew" id="germany1" name="germany">
+				<h3 class="text"><em>Германия</em></h3>
+				<div class="content">
+					<div class="elem-img">
+						<img class="elem" id="germ2" src="HTML_Lab/img/germany.jpg" alt="Германия">
+					</div>
+					<div class="elem-content">
+						<p>Германия поражает путешественников продуманным комфортом, красотой пейзажей и великолепными достопримечательностями. Здесь можно остановиться в самом современном сетевом отеле или устроиться в уютном семейном пансионе, прогуляться по старинным университетам и замкам или посетить выставки новейших достижений науки, наведаться в великолепные медицинские центры или отправиться изучать успехи немецких виноградарей.</p>
+						<div class="up">
+							<a href="#top" class="up">Наверх</a>		
+						</div>
+					</div>
+				</div>
+			</div>
+			<br><br><br><br>
+			<a name="chez"></a>
+			<div class="elem skew" id="chez1" name="chez">
+				<h3 class="text"><em>Чехия</em></h3>
+				<div class="content">
+					<div class="elem-img">
+						<img class="elem" id="chez2" src="HTML_Lab/img/chez.jpg" alt="Чехия">
+					</div>
+					<div class="elem-content">
+						<p>Одна из самых самобытных и привлекательных для туристов стран Европы с богатой историей, множеством интересных достопримечательностей, замков и памятников культуры. Вы увидите готические шпили Праги и пражские улочки, древний Карлов мост через Влтаву, сотни замков и костелы в уютных старинных городках,</p>
+						<div class="up">
+							<a href="#top" class="up">Наверх</a>		
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
